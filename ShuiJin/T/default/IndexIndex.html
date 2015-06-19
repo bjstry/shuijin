@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>爱华水晶</title>
+		<meta charset=utf-8>
+		<link rel='stylesheet' href='css/main.css'>
+	</head>
+	<body>
+		<div id='container'>
+			<div id='header'>
+				<div id='header-info'>
+					<a>海洋之心</a> - <a href='#'>网上商城</a>
+
+				</div>
+				<div id='header-other'>
+					<a>国家/地区: 中国 | 店铺 | 联系方式</a>
+					<img class='header-logo' height='72px' src='images/logo.jpg'>
+				</div>
+				<nav>
+				<ul>
+					<!--获取产品分类-->
+					{foreach $product_type as $type}
+					<li><a href='#'>{$type}</a></li>
+					{/foreach}
+				</ul>
+				</nav>	
+			</div>
+			<div id='content'>
+				<div id='left-list'>
+					<h1>首饰</h1>
+					<div id='list-lb'>
+						<h2 class='lined'>
+							<span>类别</span>
+						</h2>
+						<ul>
+							{foreach $product_type as $type}
+							  <li><a href='#'>{$type}</a></li>
+							{/foreach}
+						</ul>
+					</div>
+					<div id='list-lb'>
+						<h2 class='lined'>
+							<span>主题</span>
+						</h2>
+						<ul>
+							{foreach $product_theme as $type}
+							  <li><a href='#'>{$type}</a></li>
+							{/foreach}
+						</ul>
+					</div>
+					<div id='list-lb'>
+						<h2 class='lined'>
+							<span>价格</span>
+						</h2>
+						<ul>
+							{foreach $product_price as $type}
+							  <li><a href='#'>{$type}</a></li>
+							{/foreach}
+						</ul>
+					</div>
+				</div>
+				<div id='right-main'>
+					<h2 class='lined'>
+						<span>您的选择:99 已找到的产品</span>
+					</h2>
+					<div id='get-page'>
+						<ul>
+							<li><a href='#'>1</a></li>	  
+							<li><a href='#'>2</a></li>	  
+							<li><a href='#'>3</a></li>	  
+							<li><a href='#'>...</a></li>	  
+							<li><a href='#'>16</a></li>	  
+							<li><a href='#'>12每页</a></li>	  
+							<li><a href='#'>^</a></li>	  
+							<li><a href='#'>分页条件：</a></li>	  
+							<li><a href='#'>预设</a></li>	  
+							<li><a href='#'>^</a></li>	  
+						</ul>
+					</div>
+					<div id='product'>
+						<ul>
+							{foreach $product as $value}
+								<li>
+								<h3><span>新品</span></h3>
+								<a href="{$value['link']}"><img src="{$value['img_url']}"></a>
+								<p>{$value['name']}<span>CNY {$value['price']}.00</span></p>
+								</li>
+							{/foreach}
+							<div class='clear'></div>
+						</ul>
+					</div>
+					<div id='get-page'>
+						<ul>
+							<li><a href='#'>1</a></li>	  
+							<li><a href='#'>2</a></li>	  
+							<li><a href='#'>3</a></li>	  
+							<li><a href='#'>...</a></li>	  
+							<li><a href='#'>16</a></li>	  
+							<li><a href='#'>12每页</a></li>	  
+							<li><a href='#'>^</a></li>	  
+							<li><a href='#'>分页条件：</a></li>	  
+							<li><a href='#'>预设</a></li>	  
+							<li><a href='#'>^</a></li>	  
+						</ul>
+					</div>
+				</div>
+				<div class='clear'></div>
+			</div>
+			<div id='footer'>
+				<ul>
+					<li>关注我们</li>
+				</ul>
+				<ul>
+					<li><h3>客服中心</h3></li>
+					<li>客户服务</li>
+					<li>您的建议</li>
+					<li>联络我们</li>
+					<li>版权</li>
+				</ul>
+				<ul>
+					<li><h3>网上购物</h3></li>
+					<li>使用条款</li>
+					<li>条款和条件</li>
+					<li>隐私条款</li>
+					<li>网站地图</li>
+				</ul>
+				<ul>
+					<li><h3>关于我们</h3></li>
+					<li>海洋水晶通讯</li>
+					<li>商务礼品</li>
+					<li>其他海洋水晶网站</li>
+					<li>手机网站</li>
+				</ul>
+				<div class='clear'></div>
+			</div>
+		</div>
+	</body>
+</html>
