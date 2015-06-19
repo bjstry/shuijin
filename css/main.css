@@ -54,7 +54,6 @@ a{
 
 }
 #header-info{
-	//text-align:left;
 	margin-top:5px;
 	margin-bottom:10px;
 }
@@ -90,6 +89,7 @@ nav ul li{
 	border:0px none;
 }
 nav ul li a{
+	position: relative;
 	display: block;
 	transition: all 1.25s ease-out 0s;
 	font-family: NewsGothicBTBold,Arial,sans-serif;
@@ -105,22 +105,13 @@ nav ul li a{
 	padding: 0px 15px;
 	text-indent: 0px;
 	width: auto;
-	position: relative;
 	border-style: solid;
 	border-color:#FFF;
-	//-moz-border-top-colors: #FFF;
-	//-moz-border-right-colors: #FFF;
-	//-moz-border-bottom-colors: #FFF;
-	//-moz-border-left-colors: #FFF;
-	border-image: none;
 	border-width: 0px 1px;
 }
 nav ul li a:hover{
 	border-color:#CCC;
 	color:#003063;
-	//-moz-border-left-colors: #000;
-	//-moz-border-right-colors: #CCC;
-	//-moz-border-bottom-colors: #FFF;
 }
 #content{
 	position: relative;
@@ -146,9 +137,14 @@ nav ul li a:hover{
 #content #left-list ul{
 	width:240px;
 }
+#content #left-list ul li{
+	-moz-transition: background 0.25s;
+}
 #content #left-list ul li:hover{
-	color:#FFF;
 	background:#666;
+}
+#content #left-list ul li a:hover{
+	color:#FFF;
 }
 #content #left-list ul li a{
 	display:block;
