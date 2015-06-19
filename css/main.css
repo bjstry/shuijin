@@ -35,7 +35,7 @@ a{
 	background-color: #FFF;
 }
 .clear{
-	//clear:both;
+	clear:both;
 }
 #container{
 	position: relative;
@@ -115,16 +115,9 @@ nav ul li a{
 	border-image: none;
 	border-width: 0px 1px;
 }
-@-moz-keyframes jintest
-{
-0%	{border-color:#CCC;}
-80%	{border-color:#CCC;}
-100%	{border-color:#FFFFFF;}
-}
 nav ul li a:hover{
-	//-moz-animation:jintest 2s;
 	border-color:#CCC;
-	//color:blue;
+	color:#003063;
 	//-moz-border-left-colors: #000;
 	//-moz-border-right-colors: #CCC;
 	//-moz-border-bottom-colors: #FFF;
@@ -133,7 +126,7 @@ nav ul li a:hover{
 	position: relative;
 	width:960px;
 	min-height:400px;
-	margin-bottom:20px;
+	padding-bottom:20px;
 	float:none;
 }
 #content #left-list{
@@ -170,16 +163,60 @@ nav ul li a:hover{
 	width:660px;
 }
 #content #right-main #get-page ul{
+	position:relative;
+	display:inline-block;
 	float:none;
 }
 #content #right-main #get-page ul li{
 	float:left;
 }
 #content #right-main #get-page ul li a{
-	padding:0px 5px;
+	padding:3px 5px;
 }
 #content #right-main #get-page ul li a:hover{
 	background:#CCC;
+}
+#content #right-main #product{
+	position:relative;
+	clear:both;
+}
+#content #right-main #product ul li{
+	float:left;
+	width:210px;
+	margin:20px 5px;
+}
+#content #right-main #product ul li p{
+	font-family: NewsGothicBdCnBT,"Arial Narrow",Arial,sans-serif;
+	letter-spacing: 0.01em;
+	font-weight: 700;
+	font-size: 14px;
+	display: block;
+	line-height: 20px;
+}
+#content #right-main #product ul li p span{
+	font-family: NewsGothicBT,Arial,sans-serif;
+	letter-spacing: 0.03em;
+	font-weight: 400;
+	font-size: 14px;
+	display: block;
+}
+#content #right-main #product ul li img{
+	width:210px;
+	padding-bottom:30px;
+	border-bottom:1px dotted #CCC;
+	text-align:center;
+}
+#content #right-main #product h3{
+	color:#FFF;
+	padding:1px;
+	border-top:1px solid #CCC;
+}
+#content #right-main #product h3 span{
+	line-height:20px;
+	padding:3px;
+	margin-top:4px;
+	background:#666;
+	font-size:12px;
 }
 #footer{
 	clear:both;
