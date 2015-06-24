@@ -18,7 +18,7 @@ class IndexC extends C{
 			array('img_url'=>'images/11.jpg','name'=>'Cardinal 项链','price'=>'3000','link'=>'#'),
 			array('img_url'=>'images/12.jpg','name'=>'Cardinal 项链','price'=>'3000','link'=>'#'),
 		);
-		$title = '某某水晶';
+		$title = '海洋之星';
 		$this->assign('title',$title);
 		$this->assign('product_type',$product_type);
 		$this->assign('product_theme',$product_theme);

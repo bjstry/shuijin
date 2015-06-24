@@ -98,7 +98,6 @@ nav ul li a{
 	text-transform: uppercase;
 	text-decoration:none;
 	color: #888;
-	background: transparent none repeat scroll 0px 0px;
 	font-size: 13px;
 	line-height: 40px;
 	height: 38px;
@@ -118,7 +117,6 @@ nav ul li a:hover{
 	width:960px;
 	min-height:400px;
 	padding-bottom:20px;
-	float:none;
 }
 #content #left-list{
 	position:relative;
@@ -140,10 +138,10 @@ nav ul li a:hover{
 #content #left-list ul li{
 	-moz-transition: background 0.25s;
 }
-#content #left-list ul li:hover{
+#content #left-list ul li:hover {
 	background:#666;
 }
-#content #left-list ul li a:hover{
+#content #left-list ul li a:hover {
 	color:#FFF;
 }
 #content #left-list ul li a{
@@ -155,21 +153,44 @@ nav ul li a:hover{
 	width:240px;
 }
 #content #right-main{
+	position:relative;
 	float:left;
 	width:660px;
 }
 #content #right-main #get-page ul{
 	position:relative;
 	display:inline-block;
-	float:none;
+}
+#content #right-main #get-page > div{
+	position:relative;
+	display:inline-block;
+}
+#content #right-main #get-page > div a{
+}
+#content #right-main #get-page ul.shadow{
+	width:74px;
+	display:none;
+	position:absolute;
+	left:0px;
+}
+#content #right-main #get-page ul.shadow li a{
+	padding:3px 0;
 }
 #content #right-main #get-page ul li{
-	float:left;
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+}
+#content #right-main #get-page ul li select{
+	border:0px;
+}
+#content #right-main #get-page ul li select option{
+	border:0px;
 }
 #content #right-main #get-page ul li a{
 	padding:3px 5px;
 }
-#content #right-main #get-page ul li a:hover{
+#content #right-main #get-page ul li a:hover {
 	background:#CCC;
 }
 #content #right-main #product{
@@ -177,9 +198,20 @@ nav ul li a:hover{
 	clear:both;
 }
 #content #right-main #product ul li{
+	position:relative;
 	float:left;
 	width:210px;
 	margin:20px 5px;
+}
+#content #right-main #product ul li .info{
+	position:absolute;
+	display:none;
+	width:210px;
+	height:200px;
+	border:1px solid #CCC;
+}
+#content #right-main #product ul li .info:hover {
+	display:block;
 }
 #content #right-main #product ul li p{
 	font-family: NewsGothicBdCnBT,"Arial Narrow",Arial,sans-serif;
@@ -195,6 +227,7 @@ nav ul li a:hover{
 	font-weight: 400;
 	font-size: 14px;
 	display: block;
+	text-shadow:2px 2px 0px #CCC;
 }
 #content #right-main #product ul li img{
 	width:210px;

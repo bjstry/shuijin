@@ -1,1 +1,40 @@
 2015-06-19 22:39:43 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/3449a753bda0a2d4e5c8a8574993ef948b0a53ca.file.IndexIndex.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-06-20 00:40:56 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/4bbb87f89e7b52da2e4d067c8b8f16e213fc9e9e.file.AdminLogin.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-06-20 02:47:18 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-06-20 02:57:36 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/34850a1f87ceda64b067b6892df33347ef5cf1c2.file.head.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-06-20 02:57:36 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code 中
+2015-06-20 02:57:36 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_internal_templatebase.php(171) : eval()'d code 中
+2015-06-20 02:57:36 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/fa9a05838e6ddc305593c8ad442ca7261aa54d40.file.footer.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-06-20 02:57:36 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:57:36 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:57:36 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:57:36 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:57:45 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:57:45 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:57:52 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:57:52 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:58:01 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:58:01 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:58:53 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 02:58:53 28 行 [2] Division by zero 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 中
+2015-06-20 03:00:00 22 行 [2] SQLite3::query(): Unable to prepare statement: 1, no such table: shuijin 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:00:57 22 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:01:42 22 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:02:28 22 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:02:30 22 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:03:18 24 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:03:43 24 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:03:45 24 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:04:10 24 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:04:12 24 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:04:24 22 行 [8] Use of undefined constant upass - assumed 'upass' 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:04:24 24 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:04:41 24 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:04:55 24 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:05:20 22 行 [8] Use of undefined constant upass - assumed 'upass' 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:05:20 24 行 [2] SQLite3::query(): Unable to prepare statement: 1, no such column: bjs56233one 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:08:13 22 行 [2] SQLite3::query(): Unable to prepare statement: 1, no such column: bjs56233one 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:09:16 23 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:09:43 23 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:09:45 23 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-06-20 03:09:46 23 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中

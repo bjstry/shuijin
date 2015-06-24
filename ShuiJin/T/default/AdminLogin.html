@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>登录</title>
+		<link rel='stylesheet' href='{$smarty.const.ROOT}/css/admin.min.css'>
+</head>
+<body>
+	<div>
+		<label for='uname'>
+			<h2>用户登录</h2>
+		</label>
+		<form action='{$smarty.const.URL}/Admin/LoginCheck' method='post'>
+		<input type='text' id='uname' name='uname'>
+		<input type='password' name='upass'>
+		<input type='submit' name='Login_sub' value='登录'>
+	</form>
+	</div>
+</body>
+</html>

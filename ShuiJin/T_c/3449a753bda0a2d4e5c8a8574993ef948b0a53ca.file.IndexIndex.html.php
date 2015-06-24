@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-19 22:46:14
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-25 04:47:55
          compiled from "ShuiJin/T/default/IndexIndex.html" */ ?>
 <?php /*%%SmartyHeaderCode:532084796558429af66c5e9-62845538%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3449a753bda0a2d4e5c8a8574993ef948b0a53ca' => 
     array (
       0 => 'ShuiJin/T/default/IndexIndex.html',
-      1 => 1434725133,
+      1 => 1435178853,
       2 => 'file',
     ),
   ),
@@ -122,12 +122,24 @@ $_smarty_tpl->tpl_vars['type']->_loop = true;
 							<li><a href='#'>3</a></li>	  
 							<li><a href='#'>...</a></li>	  
 							<li><a href='#'>16</a></li>	  
-							<li><a href='#'>12每页</a></li>	  
-							<li><a href='#'>^</a></li>	  
-							<li><a href='#'>分页条件：</a></li>	  
-							<li><a href='#'>预设</a></li>	  
-							<li><a href='#'>^</a></li>	  
 						</ul>
+						<div>
+							<a href='#'><span>12每页</span> ^</a>	  
+							<ul class='shadow'>
+								<li><a href='#'>12每页</a></li>
+								<li><a href='#'>24每页</a></li>
+								<li><a href='#'>36每页</a></li>
+							</ul>
+						</div>
+							<a href='#'>分页条件：</a>	  
+						<div>
+							<a href='#'><span>预设</span> ^</a>	  
+							<ul class='shadow'>
+								<li><a href='#'>预设</a></li>
+								<li><a href='#'>价格从低到高</a></li>
+								<li><a href='#'>价格从高到低</a></li>
+							</ul>
+						</div>
 					</div>
 					<div id='product'>
 						<ul>
@@ -137,6 +149,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['value']->key => $_smarty_tpl->tpl_var
 $_smarty_tpl->tpl_vars['value']->_loop = true;
 ?>
 								<li>
+								<div class='info'>abc</div>
 								<h3><span>新品</span></h3>
 								<a href="<?php echo $_smarty_tpl->tpl_vars['value']->value['link'];?>
 "><img src="<?php echo $_smarty_tpl->tpl_vars['value']->value['img_url'];?>
@@ -160,7 +173,12 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
 							<li><a href='#'>^</a></li>	  
 							<li><a href='#'>分页条件：</a></li>	  
 							<li><a href='#'>预设</a></li>	  
-							<li><a href='#'>^</a></li>	  
+							<li>
+								<select>
+									<option>ABC</option>
+								</select>
+
+							</li>	  
 						</ul>
 					</div>
 				</div>
