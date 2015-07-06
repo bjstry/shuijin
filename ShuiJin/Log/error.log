@@ -38,3 +38,28 @@
 2015-06-20 03:09:43 23 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
 2015-06-20 03:09:45 23 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
 2015-06-20 03:09:46 23 行 [2] SQLite3::query(): Unable to execute statement: datatype mismatch 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-07-03 22:41:48 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/34850a1f87ceda64b067b6892df33347ef5cf1c2.file.head.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-07-03 22:41:48 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/3449a753bda0a2d4e5c8a8574993ef948b0a53ca.file.IndexIndex.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-07-03 22:41:48 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/fa9a05838e6ddc305593c8ad442ca7261aa54d40.file.footer.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-07-03 22:41:55 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/71bac425805fe45742b5dda6404d44790300f282.file.InstallIndex.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-07-03 23:00:14 39 行 [2] fopen(install.lok): failed to open stream: No such file or directory 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-07-03 23:01:10 39 行 [2] fopen(install.txt): failed to open stream: No such file or directory 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-07-03 23:01:11 39 行 [2] fopen(install.txt): failed to open stream: No such file or directory 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-07-03 23:03:28 39 行 [2] fopen(install.txt): failed to open stream: No such file or directory 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-07-03 23:03:28 40 行 [2] fclose() expects parameter 1 to be resource, boolean given 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/InstallC.class.php 中
+2015-07-06 22:04:30 5 行 [8] Undefined index: admin 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-06 22:05:28 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/8ebaa59dbdde0b9829a8577701d5b33b35825700.file.AdminIndex.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-07-06 22:09:02 4 行 [8] Undefined index: admin 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-06 22:09:03 4 行 [8] Undefined index: admin 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-06 22:09:04 772 行 [2] filemtime(): stat failed for ShuiJin/T_c/4bbb87f89e7b52da2e4d067c8b8f16e213fc9e9e.file.AdminLogin.html.php 在文件 /home/jinsong/Project/web/Speek/Lib/Tpl/sysplugins/smarty_resource.php 中
+2015-07-07 01:47:16 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:47:58 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:47:58 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:48:02 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:48:03 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:48:03 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:48:05 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:48:07 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:48:08 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:48:08 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 01:48:18 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
