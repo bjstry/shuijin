@@ -3,7 +3,7 @@
 	<head>
 		<title>{$title}</title>
 		<meta charset=utf-8>
-		<link rel='stylesheet' href='css/main.css'>
+		<link rel='stylesheet' href='{$smarty.const.ROOT}/css/main.css'>
 	</head>
 	<body>
 		<div id='container'>
@@ -14,7 +14,7 @@
 				</div>
 				<div id='header-other'>
 					<a>国家/地区: 中国 | 店铺 | 联系方式</a>
-					<img class='header-logo' height='72px' src='images/logo.jpg'>
+					<img class='header-logo' height='72px' src='{$smarty.const.ROOT}/images/logo.jpg'>
 				</div>
 				<nav>
 				<ul>
@@ -95,7 +95,7 @@
 								<li>
 								<div class='info'>abc</div>
 								<h3><span>新品</span></h3>
-								<a href="{$value['link']}"><img src="{$value['img_url']}"></a>
+								<a href="{$value['link']}"><img src="{$smarty.const.ROOT}/{$value['img_url']}"></a>
 								<p>{$value['name']}<span>CNY {$value['price']}.00</span></p>
 								</li>
 							{/foreach}

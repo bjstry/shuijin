@@ -2,10 +2,16 @@
 class AdminC extends C{
 	public function Index(){
 		if(VerifySession($_SESSION['ukey'],'admin')){
-			echo '欢迎访问后台管理界面!';
+			echo '欢迎访问后台管理界面!<br>';
+			$db = SQ('shuijin');
+			$ret = $db->query('select * from sj_product_list');
+			while($row = $ret->fetchArray(SQLITE3_ASSOC)){
+				$row_arr[] = $row;
+			}
+			print_r($row_arr);
 			$this->display();	
 		}else{
-			echo "请先<a href='login'>登录</a>！";
+			echo "请先<a href='".URL."/login'>登录</a>！";
 		}
 	}
 	public function Login(){
@@ -13,7 +19,7 @@ class AdminC extends C{
 	}
 	public function Logout(){
 		session('ukey','null');
-		echo "注销成功,<a href='index'>点击</a>返回";
+		echo "注销成功,<a href='".URL."/index'>点击</a>返回";
 	}
 	public function LoginCheck(){
 		if(isset($_POST['login_sub'])){
@@ -26,7 +32,7 @@ class AdminC extends C{
 				if($pass == $row['upass']){
 					session('ukey','admin');
 					echo 'login successs!';
-					echo "<a href='index'>点击</a>跳转到主页!";
+					echo "<a href='".URL."/index'>点击</a>跳转到主页!";
 				}else{
 					exit('密码错误');
 				}
@@ -39,6 +45,8 @@ class AdminC extends C{
 		}
 	}
 	public function AddCheck(){
+		$ext = null;
+		$directory = 'images/';
 		if(VerifySession(session('ukey'),'admin')){
 			if(!empty($_POST['add'])){
 				if($_FILES['file']['error'] > 0){
@@ -50,13 +58,19 @@ class AdminC extends C{
 					if($_FILES['file']['type'] !== 'image/jpeg' and $_FILES['file']['type'] !== 'image/png'){
 						exit('File type not match!');
 					}
+					if($_FILES['file']['type'] !== 'image/jpeg'){
+						$ext = '.jpg';
+					}else{
+						$ext = '.png';
+					}
 					echo 'Upload: '.$_FILES['file']['name'].'<br>';
-					echo 'Stored in: '.$_FILES['file']['tmp_name'];
-					if(file_exists('images/'.$_POST['name'])){
-						echo $_POST['name'].'already exists.';
+					echo 'Stored in: '.$_FILES['file']['tmp_name'].'<br>';
+					if(file_exists($directory.$_POST['number'].$ext)){
+						echo $_POST['number'].$ext.'already exists.';
 					}else{
 						$db = SQ('shuijin');
-						$sql = "insert into sj_product_list (id,img_url,name,price,link) values (?,'images/$_POST[name]','$_POST[name]',$_POST['price'],'$_POST[link]')";
+						$img_url = $directory.$_POST['number'].$ext;
+						$sql = "insert into sj_product_list (id,img_url,name,number,price,link) values (?,'$img_url','$_POST[name]',$_POST[number],$_POST[price],'$_POST[link]')";
 						$verify = $db->query("select name from sj_product_list where name='$_POST[name]'");
 						if($verify->fetchArray()){
 							print_r($verify);
@@ -64,16 +78,15 @@ class AdminC extends C{
 							echo "<script>history.go(-1)</script>";
 							exit();
 						}
-						$ret = $db-exec($sql);
+						$ret = $db->exec($sql);
 						if($ret){
-							move_uploaded_file($_FILES['file']['tmp_name'],'images/'.$_POST['name']);
-							echo 'Stored in: '.'upload/'.$_POST['name'];
-							echo '添加成功!';
+							move_uploaded_file($_FILES['file']['tmp_name'],$directory.$_POST['number'].$ext);
+							echo 'Stored in: '.$directory.$_POST['number'].$ext.'<br>';
+							echo "添加成功!<a href='".URL."/index'>点击</a>";
 						}else{
 							echo "<script>alert($db->lastErrorMsg());<script>";
 						}
 					}
-					print_r($_POST);
 				}
 			}else{
 				echo '参数不正确!';

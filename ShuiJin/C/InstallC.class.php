@@ -20,6 +20,7 @@ class InstallC extends C{
 				id integer primary key autoincrement,
 				img_url varchar(60) not null,
 				name varchar(30) not null,
+				number int(10) not null,
 				price int(10) not null,
 				link varchar(60) not null
 			);

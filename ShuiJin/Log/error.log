@@ -63,3 +63,27 @@
 2015-07-07 01:48:08 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
 2015-07-07 01:48:08 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
 2015-07-07 01:48:18 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 21:39:06 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 21:43:15 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-07 21:43:16 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:12:56 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:18:38 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:37:59 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:38:06 23 行 [2] SQLite3::query(): Unable to prepare statement: 1, no such table: sj_user 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:38:51 23 行 [2] SQLite3::query(): Unable to prepare statement: 1, no such table: sj_user 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:39:46 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:40:09 65 行 [8] Undefined index: number 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:40:09 73 行 [2] SQLite3::exec(): near ",": syntax error 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:40:09 79 行 [8] Undefined property: SpeekFrameWorkSqlite3DB::$lastErrorMsg 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:48:34 61 行 [8] Undefined index: number 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:48:34 65 行 [8] Undefined index: number 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:48:34 73 行 [2] SQLite3::exec(): near ",": syntax error 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 21:48:34 79 行 [8] Undefined property: SpeekFrameWorkSqlite3DB::$lastErrorMsg 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 22:30:59 7 行 [2] SQLite3::query(): Unable to prepare statement: 1, no such table: sj_product_list 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 22:31:16 6 行 [2] SQLite3::query(): Unable to prepare statement: 1, no such table: sj_product_list 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/IndexC.class.php 中
+2015-07-08 22:31:31 32 行 [8] Undefined variable: product 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/IndexC.class.php 中
+2015-07-08 22:31:35 32 行 [8] Undefined variable: product 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/IndexC.class.php 中
+2015-07-08 22:31:39 4 行 [8] Undefined index: ukey 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 22:31:46 11 行 [8] Undefined variable: row_arr 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 22:32:13 81 行 [2] SQLite3::exec(): no such column: 产品1 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
+2015-07-08 22:32:13 87 行 [8] Undefined property: SpeekFrameWorkSqlite3DB::$lastErrorMsg 在文件 /home/jinsong/Project/web/shuijin/ShuiJin/C/AdminC.class.php 中
