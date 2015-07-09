@@ -8,7 +8,6 @@ class AdminC extends C{
 			while($row = $ret->fetchArray(SQLITE3_ASSOC)){
 				$row_arr[] = $row;
 			}
-			print_r($row_arr);
 			$this->display();	
 		}else{
 			echo "请先<a href='".URL."/login'>登录</a>！";
@@ -73,7 +72,6 @@ class AdminC extends C{
 						$sql = "insert into sj_product_list (id,img_url,name,number,price,link) values (?,'$img_url','$_POST[name]',$_POST[number],$_POST[price],'$_POST[link]')";
 						$verify = $db->query("select name from sj_product_list where name='$_POST[name]'");
 						if($verify->fetchArray()){
-							print_r($verify);
 							echo "<script>alert('该图片已存在!');</script>";
 							echo "<script>history.go(-1)</script>";
 							exit();
